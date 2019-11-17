@@ -1,0 +1,36 @@
+1 在标准的 JavaScript 中， Ajax 异步执行调用基于Event和callback才能实现，
+JavaScript是单线程的，浏览器实现了异步的操作，整个js程序是事件驱动的，每个事件都会绑定相应的回调函数
+2 JavaScript 写在 HTML<body>标签部分，会导致页面在加载的时候自身被执行（）。
+3 JavaScript内部，所有数字都是以64位浮点数形式储存，即使整数也是如此。
+4 JavaScript的可迭代对象 
+       1）数组Arrays 
+       2）字符串Strings
+       3）Map
+       4）Set
+       5）arguments
+       6）Typed Arrays
+       7）Generators，ES6新增加
+5 任何对象转为布尔值，都为得到 true（切记！在 JS 中，只有 0，-0，NaN，""，null，undefined 这六个值转布尔值时，结果为 false）。 
+6 javascript系统方法的描述
+      parseFloat方法：该方法将一个字符串转换成对应的小数
+      isNaN方法：该方法用于检测参数是否为数值型，如果是，返回false，否则，返回true。
+      escape方法： 该方法返回对一个字符串编码后的结果字符串
+      eval方法：该方法将某个参数字符串作为一个JavaScript执行
+7 以下哪些选项可以将集合A转化为数组？
+        Array.form(A)
+        [].slice.apply(A)
+        […A]
+        ].map.call(A, o => o)
+8 
+
+
+
+
+
+
+
+
+
+
+
+
